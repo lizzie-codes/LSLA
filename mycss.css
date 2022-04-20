@@ -13,10 +13,10 @@ left:350px;
 font-size:110%;
 position:absolute;
 top:150px;
-left:550px;
+right:50px;
 }
 
-img
+.img
 {
 	width:210px;
 	height:180px;
@@ -25,7 +25,6 @@ img
 	left: 52px;
 	
 }
-
 .login-form{
 	width: 200px;
 	height:250px;
@@ -54,12 +53,22 @@ left:120px;
 }
 .marquee
 {
-direction:left;
-background-color:greenyellow;
+
+border:3px solid greenyellow;
 position:absolute;
-top:180px;
+top:193px;
 left:300px;
 height: 400px;
-width: 1000px;
-
+width: 900px;
+padding: 10px 30px 0.5px 70px;
+}
+.howtobeamember
+{
+border:3px solid greenyellow;
+margin:40px;
+padding:10px;
+position:relative;
+top:0.5px;
+left:10px;
+background-color:#F5FFFA;
 }
